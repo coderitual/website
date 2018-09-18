@@ -1,29 +1,20 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "website",
+  "description": "coderitual websiite",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "dependencies": {
-    "gatsby": "^1.9.247",
-    "gatsby-link": "^1.6.40",
-    "gatsby-plugin-react-helmet": "^2.0.10",
-    "react-helmet": "^5.2.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
+  "author": "Mike Skowronek <skowronkow@gmail.com>",
+  "dependencies": {},
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --open",
+    "build": "rimraf dist && parcel build index.html"
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "parcel-bundler": "^1.9.7",
+    "rimraf": "^2.6.2"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/gatsbyjs/gatsby-starter-default"
+    "type": "git",
+    "url": "https://github.com/coderitual/website.git"
   }
 }
