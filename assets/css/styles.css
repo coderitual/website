@@ -39,6 +39,22 @@ header {
   list-style: none;
   opacity: 0.8;
 }
+.header__info {
+  font-family: Nunito;
+  font-size: 14;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+}
+
+.header__info > * {
+  margin: 8px;
+}
+
+.header__scroll {
+  opacity: 0.5;
+}
 
 .header__bio {
   font-family: Nunito;
