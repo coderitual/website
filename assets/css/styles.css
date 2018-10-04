@@ -1,6 +1,27 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+html {
   background-color: black;
   color: white;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 1rem;
+}
+
+.header {
+  width: 70vw;
+  margin: auto;
+  display: grid;
 }
 
 .header__hero {
