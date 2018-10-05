@@ -1,6 +1,16 @@
+/*
+generic
+------------------------------------------------
+*/
+
 * {
   box-sizing: border-box;
 }
+
+/*
+elements
+------------------------------------------------
+*/
 
 html {
   background-color: black;
@@ -16,12 +26,44 @@ header {
   margin: auto;
 }
 
+/*
+objects
+------------------------------------------------
+*/
+
+.background {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background__path-a {
+  position: absolute;
+  width: 1829px;
+  height: 1829px;
+  transform: translate(300px, -360px);
+}
+
+.background__path-b {
+  position: absolute;
+  width: 398px;
+  height: 1080px;
+  transform: translate(1244px, 0);
+}
+
+.background__path-eclipse {
+  position: absolute;
+  width: 682px;
+  height: 682px;
+  transform: translate(960px, 168px);
+}
+
 .header {
-  width: 60vw;
+  width: 70vw;
   height: 100vh;
   display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: 1fr auto;
+  grid-gap: 1rem 2rem;
+  grid-template-columns: 1fr minmax(auto, 60rem);
   grid-template-rows: auto 40vh auto auto auto;
   align-items: end;
   justify-items: start;
