@@ -63,6 +63,7 @@ objects
   height: 100vh;
   display: grid;
   grid-gap: 1rem 2rem;
+  padding-top: 1rem;
   grid-template-columns: 1fr minmax(auto, 60rem);
   grid-template-rows: auto 40vh auto auto auto;
   align-items: end;
@@ -72,6 +73,7 @@ objects
 
 .header__image {
   grid-column: 1 / span 1;
+  align-self: start;
 }
 
 .header__hero {
@@ -81,6 +83,7 @@ objects
   font-size: 72px;
   font-weight: 800;
   line-height: 1;
+  margin: 0;
 }
 
 .navigation {
@@ -118,8 +121,13 @@ objects
 .header__bio {
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
+  align-self: start;
   font-family: Nunito;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   opacity: 0.5;
+}
+
+.header__bio-name {
+  font-weight: bold;
 }
