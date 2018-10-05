@@ -35,6 +35,7 @@ objects
   position: fixed;
   width: 100vw;
   height: 100vh;
+  pointer-events: none;
 }
 
 .background__path-a {
@@ -118,16 +119,26 @@ objects
   opacity: 0.5;
 }
 
-.header__bio {
+.bio {
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
   align-self: start;
   font-family: Nunito;
-  font-weight: 600;
-  font-size: 20px;
-  opacity: 0.5;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
 }
 
-.header__bio-name {
+.bio__name {
   font-weight: bold;
+}
+
+.link, .link:visited {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #E32C69;
 }
