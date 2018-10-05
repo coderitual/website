@@ -14,34 +14,50 @@ body {
 header {
   display: flex;
   margin: auto;
-  min-height: 100vh;
-  padding-top: 1rem;
 }
 
 .header {
-  width: 70vw;
-  margin: auto;
+  width: 60vw;
+  height: 100vh;
   display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 40vh auto auto auto;
+  align-items: end;
+  justify-items: start;
+  margin: auto;
+}
+
+.header__image {
+  grid-column: 1 / span 1;
 }
 
 .header__hero {
+  grid-column: 2 / 3;
+  grid-row: 2 / span 1;
   font-family: Raleway;
   font-size: 72px;
   font-weight: 800;
   line-height: 1;
 }
 
+.navigation {
+  grid-column: 1 / 2;
+  grid-row: 3 / span 1;
+}
+
 .navigation__list {
   font-family: Nunito;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.8;
   list-style: none;
   opacity: 0.8;
 }
 .header__info {
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
   font-family: Nunito;
-  font-size: 14;
+  font-size: 14px;
   font-weight: 800;
   text-transform: uppercase;
   display: flex;
@@ -57,8 +73,10 @@ header {
 }
 
 .header__bio {
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
   font-family: Nunito;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   opacity: 0.5;
 }
