@@ -32,10 +32,11 @@ objects
 */
 
 .background {
-  position: fixed;
+  position: absolute;
   width: 100vw;
   height: 100vh;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .background__path-a {
