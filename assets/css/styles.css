@@ -41,7 +41,7 @@ objects
 }
 
 .header {
-  width: 70vw;
+  width: 60vw;
   height: 100vh;
   display: grid;
   grid-gap: 1rem 2rem;
