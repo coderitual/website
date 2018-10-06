@@ -37,6 +37,7 @@ objects
   height: 100vh;
   pointer-events: none;
   overflow: hidden;
+  z-index: -1;
 }
 
 .background__path-a {
@@ -44,6 +45,13 @@ objects
   width: 1829px;
   height: 1829px;
   transform: translate(300px, -360px);
+}
+
+.background__path-a-shine {
+  position: absolute;
+  width: 750px;
+  height: 750px;
+  transform: translate(625px, -36px);
 }
 
 .background__path-b {
