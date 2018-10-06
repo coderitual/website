@@ -40,34 +40,6 @@ objects
   z-index: -1;
 }
 
-.background__path-a {
-  position: absolute;
-  width: 1829px;
-  height: 1829px;
-  transform: translate(300px, -360px);
-}
-
-.background__path-a-shine {
-  position: absolute;
-  width: 750px;
-  height: 750px;
-  transform: translate(625px, -36px);
-}
-
-.background__path-b {
-  position: absolute;
-  width: 398px;
-  height: 1080px;
-  transform: translate(1244px, 0);
-}
-
-.background__path-eclipse {
-  position: absolute;
-  width: 682px;
-  height: 682px;
-  transform: translate(960px, 168px);
-}
-
 .header {
   width: 70vw;
   height: 100vh;
